@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "library.sqlite",
+            "group": "sqlite",
+            "database": "${workspaceFolder:playground-sql}/library.sqlite"
+        }
+    ]
+}
